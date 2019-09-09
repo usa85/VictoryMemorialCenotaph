@@ -13,7 +13,23 @@ function setMarkers(map) {
       // The origin for this image is (0, 0).
       origin: new google.maps.Point(0, 0),
       // The anchor for this image is the base of the flagpole at (0, 32).
-      anchor: new google.maps.Point(0, 32)
+      anchor: new google.maps.Point(0, 32),
+    };
+    var iconBase="https://developers.google.com/maps/documentation/javascript/examples/full/images";
+    var icons ={
+      trees:{ 
+        icon: iconBase +"treeImage.png"
+      },
+      cenotaph:{
+        icon: iconBase +"cenotaphMarker.png"
+      },
+      cenotaphJe: {
+        icon: iconBase +"cenotaphMarkerJe.png"
+      },
+      streetview:{
+        icon: iconBase +"streetview.png"
+      }
+
     };
     // Shapes define the clickable region of the icon. The type defines an HTML
     // <area> element 'poly' which traces out a polygon as a series of X,Y points.

@@ -21,6 +21,10 @@
          background-color: beige;
          padding-top: 2rem;
      }
+     #listofabbreviation{
+         background-color: lightgrey;
+         padding-top: 2rem;
+     }
 
      #vm_header{
          background-image: url('mypicture.jpg');
