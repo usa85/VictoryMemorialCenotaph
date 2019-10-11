@@ -11,4 +11,4 @@ for (let i = 0; i<rows; i++){
     }  
     
 }
-document.getElementById("List").innerHTML = mylist;
+document.getElementById("list").innerHTML = mylist;

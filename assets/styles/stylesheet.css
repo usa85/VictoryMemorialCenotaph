@@ -14,16 +14,32 @@
      
 
      #soldierdescription{
-         background-color: beige;
-         padding-top: 2rem;
+        background-color: beige;
+        height: 900px;
+        color: grey;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        overflow: scroll;
      }
      #soldierlist{
-         background-color: beige;
-         padding-top: 2rem;
+        background-color: beige;
+        height: 900px;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        overflow: scroll;
      }
      #listofabbreviation{
-         background-color: lightgrey;
-         padding-top: 2rem;
+        background-color: lightgrey;
+        height : 900px;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        overflow: scroll;
      }
 
      #vm_header{
@@ -46,3 +62,25 @@
          text-align: center;
          padding-bottom: 3rem;
      }
+     #floating-panel {
+        position: absolute;
+        top: 10px;
+        left: 25%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+        text-align: center;
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+      #floating-panel {
+        background-color: #fff;
+        border: 1px solid #999;
+        left: 25%;
+        padding: 5px;
+        position: absolute;
+        top: 10px;
+        z-index: 5;
+      }
