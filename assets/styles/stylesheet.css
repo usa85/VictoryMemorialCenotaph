@@ -12,6 +12,10 @@
         margin: 0;
         padding: 0;
       }
+
+      tr:hover {background-color: whitesmoke;
+                color: red;
+     }
      
 
      #soldierdescription{
