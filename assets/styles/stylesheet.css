@@ -2,7 +2,7 @@
        * element that contains the map. */
        #map {
         width: 100%;
-        height: 900px;
+        height: 700px;
     
       }
       /* Optional: Makes the sample page fill the window. */
@@ -22,8 +22,9 @@
         }
     
       #listOfSoldiers{
-         background-color: beige;
-         height : 900px;
+         background-color: #deb887;
+         height : 800px;
+         color: black;
          padding-top: 2rem;
          padding-left: 1rem;
          padding-right: 1rem;
@@ -31,9 +32,9 @@
          overflow: scroll; 
       }
      #soldierdescription{
-        background-color: beige;
-        height: 900px;
-        color: grey;
+        background-color: #deb887;
+        height: 800px;
+        color: black;
         padding-top: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -41,8 +42,9 @@
         overflow: scroll;
      }
      #soldierlist{
-        background-color: beige;
-        height: 900px;
+        background-color: #deb887;
+        color: black;
+        height: 800px;
         padding-top: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -50,18 +52,18 @@
         overflow: scroll;
      }
      #listofabbreviation{
-        background-color: lightgrey;
-        height : 900px;
+        background-color: #deb887;
+        height : 800px;
         padding-top: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
         padding-bottom: 2rem;
         overflow: scroll;
      }
-     #mapstyle{
-        background-color: lightgrey;
+     #mapstyle {
+        background-color: #deb887;
         align-content: center;
-        height : 900px;
+        height : 800px;
         padding-top: 2rem;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -112,4 +114,10 @@
         position: absolute;
         top: 10px;
         z-index: 5;
+      }
+      .btmnav{
+       background-color:brown;
+       padding-top: 2rem;
+       text-align:center;
+       color: yellow;
       }
