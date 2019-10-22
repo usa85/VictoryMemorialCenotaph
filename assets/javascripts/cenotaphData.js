@@ -1,5 +1,5 @@
 let cenotaph = [
-    ['Cecile F. Kyle (Ct: 284)', 45.03431, -93.31902, 4, 'IMG_2807.jpg', 'Sergeant', 'Co B 131 Inf, 33rd Division', 'KA', 'Mary Kyle Westloff (M)', 284, 'Romagne-sous-Montfaucon','October', 10, 1918,'Plot G Row 20 Grave 31', 'Meuse-Argonne American Cemetary', 'https://www.abmc.gov/cemeteries-memorials/europe/meuse-argonne-american-cemetery', 'France' ],
+    ['Cecile F. Kyle (Ct: 284)', 45.03431, -93.31902, 4, 'IMG_2807.jpg', 'Sergeant', 'Co B 131 Inf, 33rd Division', 'KA', 'Mary Kyle Westloff (M)', 284 ],
     ['George S. Lang (Ct: 287)', 45.034821, -93.319084, 5, 'IMG_2808.jpg', '1st Lt', 'Co F 135 Inf', 'DD', 'Mrs Sydney L. Lang (M)', 287],
     ['Guy A. Larson (Ct: 290)', 45.034996, -93.319099, 3, 'IMG_2809.jpg', 'Pvt 1st cl', 'Btry B 148 FA', 'DD','Caroline Larson (M)', 290],
     ['Leslie D. Lawrence (Ct: 293)', 45.035164, -93.319115, 2, 'IMG_2810.jpg', 'Corp', 'Co E 804 Pion Inf', 'DD', 'Sadie Bridges (M)', 293],

@@ -4,7 +4,9 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+
     <title>Victory Memorial Parkway</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="assets/styles/reset.css">
@@ -20,36 +22,41 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 
   </head>
   <body>
  <!-- Top container -->
- <div class="w3-container" id="vm_header">
-        <h1>Victory Memorial Parkway</h1>
-        <p class="pyellow">To Learn About The Journey of 568 Hennepin County Soldiers to Europe and Beyond! <br>
-            To Commemorate the Wonderful Job, so Many Completed To Perpetuate <b>Freedom</b> a Reality Around the World!</p>
-</div>
+ <!--Begin Page Header-->
+        <div class="w3-container" id="vm_header">
+            <h1>Victory Memorial Parkway</h1>
+            <p class="pyellow">To Learn About The Journey of 568 Hennepin County Soldiers to Europe and Beyond! <br>
+                To Commemorate the Wonderful Job, so Many Completed To Perpetuate <b>Freedom</b> a Reality Around the World!</p>
+        </div>
+<!--End Page Header-->
 
+<!--Begin Center Page-->
  <div class="row" style="margin:0; padding:0;">
-        <div class="col-sm-2" id="soldierlist" ><h2 class ="mainpageh2">List of Soldiers</h2>
-            <p>This section includes the list of soldiers' name who died during WWI as a result of the war effort and with a related link to the description of the soldiers.</p>  
-            <p>An interactive list of 568 soldier's cenotaphs goes here.  Rolling over their name activates the cenotaph's marker, and the name of the soldier.  Clicking on either the name or the cenotaph's marker activate the content of the database on the right pannel.  It further changes the maps with the existing map diplay into a three map display.  The existing one, plus a map of the actual grave, and a map of the battle field the soldier was wounded.</p>
-            <div>
-                <ul id="list">
 
-                </ul>
+        <!--Begin Left Column-->
+        <div class="col-sm-2" id="soldierlist" ><h2 class ="mainpageh2">WWI Soldiers</h2>
+            <p>The list of 568 Hennepin County soldiers who gave their life for freedom during WWI.</p>  
+         <div id="list2" class="w3-ul w3-hoverable">
                 
             </div>
         </div>
+        <!--End Left Column-->
         
+        <!--Begin Map Column-->       
         <div class="col-sm-5" id="mapstyle" style="margin-left:0px;margin-top:0px">
             <h2 class="mainpageh2">Find Your Ancestor's Cenotaph!</h2>
             <div id="map"></div>
         </div>
-        
+        <!--End Map Column-->
+
+        <!--Begin Soldier Description Column-->        
         <div class="col-sm-3" id="soldierdescription">
             <h2 class="mainpageh2">Soldier's Description</h2>
             <p>This section includes the profile of a soldier. It includes:</p>
@@ -82,7 +89,9 @@
                 <li>KA</li>
             </ul>
         </div>
+        <!--End Description Column-->
 
+        <!--Begin Right Column Accronyms-->
         <div class="col-sm-2" id="listofabbreviation">
             <div class="container"><h2 class="mainpageh2">Accronyms</h2>
                 <table></table>
@@ -92,23 +101,29 @@
                         
                     </table>
                     
-                </div>
             </div>
-            
         </div>
+        <!--End Right Column Accronyms-->    
+    </div>
+    <!--End Row-->
 </div>
 
-    <script type="text/javascript" src="assets/javascripts/script.js"></script>
+    
+
+    <!--To load left pane "List of Soldiers-->
     <script type="text/javascript" src="assets/javascripts/cenotaphData.js"></script>
+    <script type="text/javascript" src="assets/javascripts/cenotaphData2.js"></script>
     <script type="text/javascript" src="assets/javascript/loadingCenotaphNames.js"></script>
     
     <script type="text/javascript" src="assets/javascripts/abbreviations.js"></script>
-    <script src="assets/javascripts/tableData.js"></script>
-    <script src="assets/javascripts/buildTable.js"></script>
+    <script src="assets/javascripts/accTableData.js"></script>
+    <script src="assets/javascripts/accBuildTable.js"></script>
     <!--<script type="text/javascript" src="assets/javascripts/LoadingAbbreviationList.js"></script>-->
     <script type="text/javascript" src="assets/javascripts/javascriptmap.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
+    <script src="assets/javascripts/cenotaphData2.js"></script>
+    <script src="assets/javascripts/loadingCenotaphNames.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
     
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfHquEEPHJDwuOWeK3pgkCpWAk2Q40p9E&callback=initMap">

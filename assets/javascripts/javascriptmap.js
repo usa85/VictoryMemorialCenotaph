@@ -15,22 +15,7 @@ function setMarkers(map) {
       // The anchor for this image is the base of the flagpole at (0, 32).
       anchor: new google.maps.Point(0, 32),
     };
-    var iconBase="https://developers.google.com/maps/documentation/javascript/examples/full/images";
-    var icons ={
-      trees:{ 
-        icon: iconBase +"treeImage.png"
-      },
-      cenotaph:{
-        icon: iconBase +"cenotaphMarker.png"
-      },
-      cenotaphJe: {
-        icon: iconBase +"cenotaphMarkerJe.png"
-      },
-      streetview:{
-        icon: iconBase +"streetview.png"
-      }
-
-    };
+   
     // Shapes define the clickable region of the icon. The type defines an HTML
     // <area> element 'poly' which traces out a polygon as a series of X,Y points.
     // The final coordinate closes the poly by connecting to the first coordinate.
@@ -38,22 +23,23 @@ function setMarkers(map) {
       coords: [1, 1, 1, 20, 18, 20, 18, 1],
       type: 'poly'
     };
-    for (var i = 0; i < cenotaph.length; i++) {
-      var cenotaphm = cenotaph[i];
+    for (var i = 0; i < cenotaph2.length; i++) {
+      var cenotaphm = cenotaph2[i];
       var marker = new google.maps.Marker({
-        position: {lat: cenotaphm[1], lng: cenotaphm[2]},
+        position: {lat: cenotaphm.latitude, lng: cenotaphm.longitude},
         map: map,
         icon: image,
         shape: shape,
-        title: cenotaphm[0],
-        zIndex: cenotaphm[3]
+        title: cenotaphm.name,
+        labels: cenotaphm.nearestRelative
+       
       });
     }
   }
 
   function initMap() {
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 15,
+      zoom: 14,
       center: {lat: 45.027728, lng: -93.312869}
     });
 

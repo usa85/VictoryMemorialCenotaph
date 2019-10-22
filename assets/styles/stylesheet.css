@@ -17,7 +17,19 @@
                 color: red;
      }
      
-     .mainpageh2{text-align: center;}
+     .mainpageh2{
+         text-align: center;
+        }
+    
+      #listOfSoldiers{
+         background-color: beige;
+         height : 900px;
+         padding-top: 2rem;
+         padding-left: 1rem;
+         padding-right: 1rem;
+         padding-bottom: 2rem;
+         overflow: scroll; 
+      }
      #soldierdescription{
         background-color: beige;
         height: 900px;

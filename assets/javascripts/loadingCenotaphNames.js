@@ -1,14 +1,18 @@
 
-let rows=cenotaph.length;
-var mylist;
 
-for (let i = 0; i<rows; i++){
-    let items = cenotaph[i].length;
-    for(let n=0; n<items; n++ ){
-        console.log(cenotaph[i][9],cenotaph[i][0], cenotaph[i][1],cenotaph[i][2]);
-        mylist += "<li>" +cenotaph[i][2]+"</li>"; 
-       
-    }  
+document.addEventListener("DOMContentLoaded", ()=>{
+
+for (i = 0; i < cenotaph2.length; i++) {
+    let list = document.querySelector("#list2");
+    //console.log(list);
+    //console.log(cenotaph2[i].name);
+    let element = document.createElement("li");
+    element.innerText = cenotaph2[i].name;
+    console.log(element);
     
-}
-document.getElementById("list").innerHTML = mylist;
+  
+    list.appendChild(element);
+}});
+
+//bradleypauld@gmail.com
+//thursday 12:30
