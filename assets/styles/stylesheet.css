@@ -17,6 +17,13 @@
                 color: red;
      }
      
+     li:hover{background-color: white;
+            color: red;}
+     .lisoldier{
+        background-color: brown;
+     }
+     
+
      .mainpageh2{
          text-align: center;
         }
@@ -39,7 +46,7 @@
         padding-left: 1rem;
         padding-right: 1rem;
         padding-bottom: 2rem;
-        overflow: scroll;
+        overflow: hidden;
      }
      #soldierlist{
         background-color: #deb887;
@@ -68,7 +75,7 @@
         padding-left: 1rem;
         padding-right: 1rem;
         padding-bottom: 2rem;
-        overflow: scroll;  
+        
      }
 
 
