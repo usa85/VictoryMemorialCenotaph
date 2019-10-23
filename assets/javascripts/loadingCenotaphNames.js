@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", ()=>{
 
 for (i = 0; i < cenotaph2.length; i++) {
-    let list = document.querySelector("#list2");
+    let cenlist = document.querySelector("#list2");
     //console.log(list);
     //console.log(cenotaph2[i].name);
     let element = document.createElement("li");
@@ -11,7 +11,7 @@ for (i = 0; i < cenotaph2.length; i++) {
     console.log(element);
     
   
-    list.appendChild(element);
+    cenlist.appendChild(element);
 }});
 
 //bradleypauld@gmail.com
