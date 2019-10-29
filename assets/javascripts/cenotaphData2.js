@@ -9,7 +9,9 @@ let cenotaph2=[
         "unit": "Co B 131 Inf, 33rd Division",
         "deathType": "KA",
         "nearestRelative": "Mary Kyle Westloff (M)",
-        "primaryID": 284
+        "primaryID": 284,
+        "description": "Sergeant Kyle was a great guy!",
+        "journey": "Sergeant Kyle was drafted on... etc.. etc."
     },
     {
         "name": "George S. Lang (Ct: 287)",
@@ -21,7 +23,9 @@ let cenotaph2=[
         "unit": "Co F 135 Inf",
         "deathType": "DD",
         "nearestRelative": "Mrs Sydney L. Lang (M)",
-        "primaryID": 287
+        "primaryID": 287,
+        "description": "1st Lt lang was also a great guy!",
+        "journey": "1st Ltn was drafted on... etc.. etc."
     },
     {
         "name": "Guy A. Larson (Ct: 290)",
