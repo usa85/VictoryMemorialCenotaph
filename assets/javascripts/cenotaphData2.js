@@ -10,7 +10,7 @@ let cenotaph2=[
         "deathType": "KA",
         "nearestRelative": "Mary Kyle Westloff (M)",
         "primaryID": 284,
-        "description": "Sergeant Kyle was a great guy!",
+        "description": "Sergeant Kyle was...",
         "journey": "Sergeant Kyle was drafted on... etc.. etc."
     },
     {
@@ -24,7 +24,7 @@ let cenotaph2=[
         "deathType": "DD",
         "nearestRelative": "Mrs Sydney L. Lang (M)",
         "primaryID": 287,
-        "description": "1st Lt lang was also a great guy!",
+        "description": "1st Lt lang was...",
         "journey": "1st Ltn was drafted on... etc.. etc."
     },
     {

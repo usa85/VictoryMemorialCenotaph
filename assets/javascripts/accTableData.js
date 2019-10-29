@@ -77,7 +77,7 @@ let mountains = [
     { "abbreviation": "Inst", "Meaning": "Institute" },
 
     // begin "K"
-    { "abbreviation": "K", "Meaning": "Killed in Action" },
+    { "abbreviation": "KA", "Meaning": "Killed in Action" },
 
     // Begin "L"
     { "abbreviation": "Lds", "Meaning": "Landsman" },
