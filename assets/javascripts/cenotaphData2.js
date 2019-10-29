@@ -107,7 +107,7 @@ let cenotaph2=[
         "nearestRelative": "yy",
         "primaryID": 0
     },
-    {
+    /* {
         "name": "Oscar Haugen (Ct: tba) ",
         "latitude": 45.033689,
         "longitude": -93.319175,
@@ -154,7 +154,7 @@ let cenotaph2=[
         "deathType": "xx",
         "nearestRelative": "yy",
         "primaryID": 0
-    },
+    }, */
     {
         "name": "George H Kuehn (Ct: 283)",
         "latitude": 45.034339,
@@ -167,7 +167,7 @@ let cenotaph2=[
         "nearestRelative": "Suzanna Kuehn (M)",
         "primaryID": 283
     },
-    {
+   /*  {
         "name": "tba",
         "latitude": 45.033839,
         "longitude": -93.319175,
@@ -190,7 +190,7 @@ let cenotaph2=[
         "deathType": "xx",
         "nearestRelative": "yy",
         "primaryID": 0
-    },
+    }, */
     {
         "name": "Leo Leonard Levin(Ct: 298)",
         "latitude": 45.035172,
@@ -203,7 +203,7 @@ let cenotaph2=[
         "nearestRelative": "Thos Levin (F)",
         "primaryID": 298
     },
-    {
+   /*  {
         "name": "tba",
         "latitude": 45.034972,
         "longitude": -93.319328,
@@ -214,7 +214,7 @@ let cenotaph2=[
         "deathType": "xx",
         "nearestRelative": "xx",
         "primaryID": 0
-    },
+    }, */
     {
         "name": "Roderick Kennedy (Ct: 266)",
         "latitude": 45.033417,
@@ -731,7 +731,7 @@ let cenotaph2=[
         "nearestRelative": "Marie Hanson (M)",
         "primaryID": 202
     },
-    {
+   /*  {
         "name": "NA",
         "latitude": 45.02953,
         "longitude": -93.319175,
@@ -742,7 +742,7 @@ let cenotaph2=[
         "deathType": "xxx",
         "nearestRelative": "xxx",
         "primaryID": 0
-    },
+    }, */
     {
         "name": "Sabra R. Hardy (Ct: 205)",
         "latitude": 45.029864,
@@ -1019,7 +1019,7 @@ let cenotaph2=[
         "nearestRelative": "xx",
         "primaryID": 261
     },
-    {
+   /*  {
         "name": "Walter A. Jones",
         "latitude": 45.03302,
         "longitude": -93.31977,
@@ -1630,7 +1630,7 @@ let cenotaph2=[
         "deathType": "TBA",
         "nearestRelative": "tba",
         "primaryID": 0
-    },
+    }, */
     {
         "name": "Alsyn Stevens Abbott",
         "latitude": 45.015269,
@@ -1667,7 +1667,7 @@ let cenotaph2=[
         "nearestRelative": "xx",
         "primaryID": 5
     },
-    {
+   /*  {
         "name": "Ernest F. XXX",
         "latitude": 45.016742,
         "longitude": -93.31962,
@@ -2314,8 +2314,8 @@ let cenotaph2=[
         "deathType": "xx",
         "nearestRelative": "xx",
         "primaryID": 0
-    },
-    {
+    }, */
+   /*  {
         "name": "Floyd C. Freeman",
         "latitude": 45.026108,
         "longitude": -93.3189,
@@ -2770,7 +2770,7 @@ let cenotaph2=[
         "deathType": "xx",
         "nearestRelative": "xx",
         "primaryID": 0
-    },
+    }, */
     {
         "name": "Levi B Owens (Ct 369)",
         "latitude": 45.037158,
@@ -2855,7 +2855,7 @@ let cenotaph2=[
         "nearestRelative": "Mrs Alice E. Merritt (M)",
         "primaryID": 328
     },
-    {
+    /* {
         "name": "James Bryant Post",
         "latitude": 45.036056,
         "longitude": -93.3186,
@@ -2974,7 +2974,7 @@ let cenotaph2=[
         "deathType": "xx",
         "nearestRelative": "xx",
         "primaryID": 0
-    },
+    }, */
     {
         "name": "John M. Magnuson (Ct 318)",
         "latitude": 45.037139,
@@ -2987,7 +2987,7 @@ let cenotaph2=[
         "nearestRelative": "S.J. Magnuson (F)",
         "primaryID": 318
     },
-    {
+    /* {
         "name": "No Marker",
         "latitude": 45.037158,
         "longitude": -93.318795,
@@ -3010,7 +3010,7 @@ let cenotaph2=[
         "deathType": "x",
         "nearestRelative": "x",
         "primaryID": 0
-    },
+    }, */
     {
         "name": "Albert Martinson (Ct xx)",
         "latitude": 45.037178,
@@ -3047,7 +3047,7 @@ let cenotaph2=[
         "nearestRelative": "Mary Mercier",
         "primaryID": 327
     },
-    {
+   /*  {
         "name": "Harry Leroy Miller (Ct xx)",
         "latitude": 45.037278,
         "longitude": -93.317628,
@@ -3058,7 +3058,7 @@ let cenotaph2=[
         "deathType": "na",
         "nearestRelative": "na",
         "primaryID": 0
-    },
+    }, */
     {
         "name": "John Miller Jr. (Ct 330)",
         "latitude": 45.037178,
@@ -3479,7 +3479,7 @@ let cenotaph2=[
         "nearestRelative": "Edward E. Peterson (F)",
         "primaryID": 386
     },
-    {
+    /* {
         "name": "Seating ",
         "latitude": 45.036842,
         "longitude": -93.313295,
@@ -3490,7 +3490,7 @@ let cenotaph2=[
         "deathType": "xxx",
         "nearestRelative": "xxx",
         "primaryID": 0
-    },
+    }, */
     {
         "name": "Alfred H. Peterson (Ct 383)",
         "latitude": 45.036817,
@@ -3935,7 +3935,7 @@ let cenotaph2=[
         "nearestRelative": "Clara Farkvam (F)",
         "primaryID": 332
     },
-    {
+/*     {
         "name": "Missing Cenotaph (Ct xxx)",
         "latitude": 45.036678,
         "longitude": -93.31768,
@@ -3946,5 +3946,5 @@ let cenotaph2=[
         "deathType": "xx",
         "nearestRelative": "xx",
         "primaryID": 0
-    }
+    } */
 ];

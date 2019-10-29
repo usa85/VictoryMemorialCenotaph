@@ -13,20 +13,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/styles/stylesheet.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
     <link rel="icon" href="assets/images/favicon.ico" type="favicon.png" size="16x16">
+    
     <script src="https://kit.fontawesome.com/a54bdd44b1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-
-
   </head>
+
   <body>
  <!-- Top container -->
  <!--Begin Page Header-->
@@ -43,7 +44,7 @@
         <!--Begin Left Column-->
         <div class="col-sm-2" id="soldierlist" >
             <h2 class ="mainpageh2">WWI Soldiers</h2><hr>
-            <div id="list2" class="w3-ul w3-hoverable">
+            <div id="cenotaphlist" class="w3-ul w3-hoverable">
                 
             </div>
         </div>
@@ -52,42 +53,46 @@
         <!--Begin Map Column-->       
         <div class="col-sm-5" id="mapstyle" style="margin-left:0px;margin-top:0px">
             <h2 class="mainpageh2">Find Your Ancestor's Cenotaph!</h2><hr>
-            <div id="map"></div>
+            <div id="map">
+               <!--map goes here--> 
+            </div>
         </div>
         <!--End Map Column-->
 
         <!--Begin Soldier Description Column-->        
         <div class="col-sm-3" id="soldierdescription">
-            <h2 class="mainpageh2">Soldier's Description</h2><hr>
-            <p>This section includes the profile of a soldier. It includes:</p>
-            <ul>
-                <li>First Name, Middle Name, Last Name</li>
-                <li>Soldier matricule</li>
-                <li>Rank (may be several)</li>
-                <li>Military Units (may be several)</li>
-                <li>cenotaph in Minneapolis (GPS GIS coordinate)</li>
-                <li>Cenotaph pictures</li>
-                <li>Actual Grave Location (GPS GIS Coordinate)</li>
-                <li>Actual Grave Pictures</li>
-                <li>Last known address in Minneapolis</li>
-                <li>Closest relatives</li>
-                <li>date death</li>
-                <li>date cause</li>
-                <li>link to the various sites</li>
-            </ul>
-            <p>By clicking on any soldier's name under the <b>List of Soldiers</b>, you should be able to outline the soldier's cenotaph location on the map AND load the above description of the selected soldier on this panel.  For example:</p>
-            <ul>
-                <li>John Middle Doe, Jr</li>
-                <li>123456</li>
-                <li>Private First Class</li>
-                <li>123rd bn, 162 Ghost Regt</li>
-                <li>Cenotaph Location: Latitude, Longitude</li>
-                <li>Burrial Site(s): <br>1) Verdun France (Lat, Long), <br> 2) Some New Resting Place</li>
-                <li>Some Street, Minneapolis, MN</li>
-                <li>Last known relative:  Susan Doe, M.</li>
-                <li>Died on February 29th, 19xx</li>
-                <li>KA</li>
-            </ul>
+            <h2 class="mainpageh2" id="descriptionHeader">Soldier's Description</h2><hr>
+            <div id="contents">
+                <p>This section includes the profile of a soldier. It includes:</p>
+                <!-- <ul>
+                    <li>First Name, Middle Name, Last Name</li>
+                    <li>Soldier matricule</li>
+                    <li>Rank (may be several)</li>
+                    <li>Military Units (may be several)</li>
+                    <li>cenotaph in Minneapolis (GPS GIS coordinate)</li>
+                    <li>Cenotaph pictures</li>
+                    <li>Actual Grave Location (GPS GIS Coordinate)</li>
+                    <li>Actual Grave Pictures</li>
+                    <li>Last known address in Minneapolis</li>
+                    <li>Closest relatives</li>
+                    <li>date death</li>
+                    <li>date cause</li>
+                    <li>link to the various sites</li>
+                </ul>
+                <p>By clicking on any soldier's name under the <b>List of Soldiers</b>, you should be able to outline the soldier's cenotaph location on the map AND load the above description of the selected soldier on this panel.  For example:</p>
+                <ul>
+                    <li>John Middle Doe, Jr</li>
+                    <li>123456</li>
+                    <li>Private First Class</li>
+                    <li>123rd bn, 162 Ghost Regt</li>
+                    <li>Cenotaph Location: Latitude, Longitude</li>
+                    <li>Burrial Site(s): <br>1) Verdun France (Lat, Long), <br> 2) Some New Resting Place</li>
+                    <li>Some Street, Minneapolis, MN</li>
+                    <li>Last known relative:  Susan Doe, M.</li>
+                    <li>Died on February 29th, 19xx</li>
+                    <li>KA</li>
+                </ul> -->
+            </div><!--content div-->
         </div>
         <!--End Description Column-->
 
@@ -109,7 +114,7 @@
     <!-- start footer -->
     <div class="row" style="margin:0; padding:0;">
     <div class="col sm-12 btmnav">
-        <h2>Nav goes here!</h2>>
+        <h2>Nav goes here!</h2>
     </div>
     
     </div>
@@ -126,8 +131,8 @@
     <!--<script type="text/javascript" src="assets/javascripts/LoadingAbbreviationList.js"></script>-->
     <script type="text/javascript" src="assets/javascripts/javascriptmap.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script  type="text/javascript" src="assets/javascripts/cenotaphData2.js"></script>
-    <script  type="text/javascript" src="assets/javascripts/loadingCenotaphNames.js"></script>
+    <script type="text/javascript" src="assets/javascripts/cenotaphData2.js"></script>
+    <script type="text/javascript" src="assets/javascripts/loadingCenotaphNames.js"></script>
     <script src="jquery-3.4.1.min.js"></script>
     
     <script async defer
