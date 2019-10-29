@@ -4,7 +4,7 @@ basedescription = document.querySelector("#contents").innerHTML;
 function clickfunction(primaryID){
     console.log(primaryID);
     let content = document.querySelector("#contents");
-    content.innerHTML = '<h5>'+cenotaph2[primaryID].name + '</h5><p>' + cenotaph2[primaryID].rank + '<br>' + cenotaph2[primaryID].unit + '<br>Death Type: ' + cenotaph2[primaryID].deathType + '</p><p>Relative: ' + cenotaph2[primaryID].nearestRelative + '</p><p>Description: ' + cenotaph2[primaryID].description  + '</p><p>Journey: ' + cenotaph2[primaryID].journey + '<p>Cenotaph Picture: ' + cenotaph2[primaryID].imageFilename;
+    content.innerHTML = '<h5>'+cenotaph2[primaryID].name + '</h5><p>' + cenotaph2[primaryID].rank + '<br>' + cenotaph2[primaryID].unit + '</p><p>Death Type: ' + cenotaph2[primaryID].deathType + '</p><p>Relative: ' + cenotaph2[primaryID].nearestRelative + '</p><p>Description: ' + cenotaph2[primaryID].description  + '</p><p>Journey: ' + cenotaph2[primaryID].journey + '<p>Cenotaph Picture: ' + cenotaph2[primaryID].imageFilename;
     //'<br>Cenotaph: ' + cenotaph2[primaryID].imageFilename console.log(cenotaph2[primaryID].name);
 };
 

@@ -24,7 +24,7 @@ let cenotaph2=[
         "deathType": "DD",
         "nearestRelative": "Mrs Sydney L. Lang (M)",
         "primaryID": 287,
-        "description": "1st Lt lang was...",
+        "description": "1st Lt lang was also ...!",
         "journey": "1st Ltn was drafted on... etc.. etc."
     },
     {
