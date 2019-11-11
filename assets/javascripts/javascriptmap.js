@@ -42,7 +42,14 @@ function setMarkers(map) {
       markers[cenotaphm.primaryID] = new google.maps.Marker({
         position: {lat: cenotaphm.latitude, lng: cenotaphm.longitude},
         map: map,
-        icon: image,
+      icon: {
+          path: google.maps.SymbolPath.CIRCLE,
+          scale: 5,
+          fillColor:'red',
+          fillOpacity: 0.8,
+          strokeColor: 'blue',
+          strokeWeight: 0.8
+        },
         shape: shape,
         title: cenotaphm.name,
         labels: cenotaphm.nearestRelative
@@ -54,7 +61,8 @@ function setMarkers(map) {
   function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
       zoom: 14,
-      center: {lat: 45.027728, lng: -93.312869}
+      center: {lat: 45.027728, lng: -93.312869},
+      mapTypeId: 'satellite'
     });
 
     setMarkers(map);
