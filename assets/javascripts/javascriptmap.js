@@ -1,3 +1,14 @@
+var markers = {};
+
+var map;
+
+function resetMarkers(){
+  for (var marker in markers){
+    markers[marker].setMap(map);
+  }
+};
+
+
 function setMarkers(map) {
     // Adds markers to the map.
 
@@ -6,6 +17,7 @@ function setMarkers(map) {
 
     // Origins, anchor positions and coordinates of the marker increase in the X
     // direction to the right and in the Y direction down.
+
     var image = {
       url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
       // This marker is 20 pixels wide by 32 pixels high.
@@ -23,9 +35,11 @@ function setMarkers(map) {
       coords: [1, 1, 1, 20, 18, 20, 18, 1],
       type: 'poly'
     };
+   
+
     for (var i = 0; i < cenotaph2.length; i++) {
       var cenotaphm = cenotaph2[i];
-      var marker = new google.maps.Marker({
+      markers[cenotaphm.primaryID] = new google.maps.Marker({
         position: {lat: cenotaphm.latitude, lng: cenotaphm.longitude},
         map: map,
         icon: image,
@@ -38,7 +52,7 @@ function setMarkers(map) {
   }
 
   function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
+    map = new google.maps.Map(document.getElementById('map'), {
       zoom: 14,
       center: {lat: 45.027728, lng: -93.312869}
     });

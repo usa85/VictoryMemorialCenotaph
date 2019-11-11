@@ -1,19 +1,29 @@
 let basedescription;
 basedescription = document.querySelector("#contents").innerHTML;
 
-function clickfunction(primaryID){
-    console.log(primaryID);
+function clickfunction(index){
+   
     let content = document.querySelector("#contents");
-    content.innerHTML = '<h5>'+cenotaph2[primaryID].name + '</h5><p>' + cenotaph2[primaryID].rank + '<br>' + cenotaph2[primaryID].unit + '</p><p>Death Type: ' + cenotaph2[primaryID].deathType + '</p><p>Relative: ' + cenotaph2[primaryID].nearestRelative + '</p><p>Description: ' + cenotaph2[primaryID].description  + '</p><p>Journey: ' + cenotaph2[primaryID].journey + '<p>Cenotaph Picture: ' + cenotaph2[primaryID].imageFilename +'</p><p>Battlefields: n/a</p><p>Unit Campgrounds: n/a</p><p>burrial sites: n/a </p><p>Last known address: n/a</p><p>Last known Resting Place: n/a</p><p>Family Input: n/a</p><p>';
-    //'<br>Cenotaph: ' + cenotaph2[primaryID].imageFilename console.log(cenotaph2[primaryID].name);
+    content.innerHTML = '<h5>'+cenotaph2[index].name + '</h5><p>' + cenotaph2[index].rank + '<br>' + cenotaph2[index].unit + '</p><p>Death Type: ' + cenotaph2[index].deathType + '</p><p>Relative: ' + cenotaph2[index].nearestRelative + '</p><p>Description: ' + cenotaph2[index].description  + '</p><p>Journey: ' + cenotaph2[index].journey + '<p>Cenotaph Picture: ' + cenotaph2[index].imageFilename +'</p><p>Battlefields: n/a</p><p>Unit Campgrounds: n/a</p><p>burrial sites: n/a </p><p>Last known address: n/a</p><p>Last known Resting Place: n/a</p><p>Family Input: n/a</p><p>';
+    filterMarkers(cenotaph2[index].primaryID);
+    //'<br>Cenotaph: ' + cenotaph2[index].imageFilename console.log(cenotaph2[index].name);
 };
 
-document.addEventListener("DOMContentLoaded", ()=>{
+function filterMarkers(primaryID){
+    for (var marker in markers){
+            if (marker != primaryID){ 
+                markers[marker].setMap(null);
+            }
+    }
+}
+
+//document.addEventListener("DOMContentLoaded", ()=>{
 
     let description=document.querySelector("#descriptionHeader");
         description.addEventListener('click', ()=>{
             let content = document.querySelector("#contents");
             content.innerHTML=basedescription;
+            resetMarkers();
         }); 
     
     for (i = 0; i < cenotaph2.length; i++) {
@@ -33,7 +43,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
         cenotaphlist.appendChild(cenotaphelement);
     }
-});
+//});
 
 //bradleypauld@gmail.com
 //thursday 12:30

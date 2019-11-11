@@ -99,18 +99,18 @@ let cenotaph2=[
         "nearestRelative": "Katherine Loss (M)",
         "primaryID": 305
     },
-    {
-        "name": "Oscar M. Kungen (Ct: tba)",
-        "latitude": 45.035511,
-        "longitude": -93.319175,
-        "zLevel": 1,
-        "imageFilename": "IMG_2859.jpg",
-        "rank": "rank",
-        "unit": "unit",
-        "deathType": "xx",
-        "nearestRelative": "yy",
-        "primaryID": 0
-    },
+    // {
+    //     "name": "Oscar M. Kungen (Ct: tba)",
+    //     "latitude": 45.035511,
+    //     "longitude": -93.319175,
+    //     "zLevel": 1,
+    //     "imageFilename": "IMG_2859.jpg",
+    //     "rank": "rank",
+    //     "unit": "unit",
+    //     "deathType": "xx",
+    //     "nearestRelative": "yy",
+    //     "primaryID": 0
+    // },
     /* {
         "name": "Oscar Haugen (Ct: tba) ",
         "latitude": 45.033689,
@@ -3312,7 +3312,7 @@ let cenotaph2=[
         "rank": "Private",
         "unit": "Company I 110th Infantry",
         "deathType": "DW",
-        "nearestRelative": "August Placck (F)",
+        "nearestRelative": "August Plack (F)",
         "primaryID": 393
     },
     {
