@@ -3,6 +3,8 @@ var markers = {};
 var map;
 
 function resetMarkers(){
+  markers.clean=true;
+  
   for (var marker in markers){
     markers[marker].setMap(map);
   }
@@ -36,6 +38,7 @@ function setMarkers(map) {
       type: 'poly'
     };
    
+    markers.clean = true;
 
     for (var i = 0; i < cenotaph2.length; i++) {
       var cenotaphm = cenotaph2[i];

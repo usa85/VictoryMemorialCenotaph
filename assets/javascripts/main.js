@@ -1,20 +1,45 @@
 let basedescription;
 basedescription = document.querySelector("#contents").innerHTML;
+let previousPrimaryID;
+let basePath = ''
 
 function clickfunction(index){
    
     let content = document.querySelector("#contents");
     content.innerHTML = '<h5>'+cenotaph2[index].name + '</h5><p>' + cenotaph2[index].rank + '<br>' + cenotaph2[index].unit + '</p><p>Death Type: ' + cenotaph2[index].deathType + '</p><p>Relative: ' + cenotaph2[index].nearestRelative + '</p><p>Description: ' + cenotaph2[index].description  + '</p><p>Journey: ' + cenotaph2[index].journey + '<p>Cenotaph Picture: ' + cenotaph2[index].imageFilename +'</p><p>Battlefields: n/a</p><p>Unit Campgrounds: n/a</p><p>burrial sites: n/a </p><p>Last known address: n/a</p><p>Last known Resting Place: n/a</p><p>Family Input: n/a</p><p>';
+   
+   /*  function createImage() {
+    let img = document.createElement('img');
+img.src = `${basePath}/${filename}`;
+returnn img;
+}
+
+content.appendChild(createImage(cenotaphData2[i].imageFilename));*/
+
     filterMarkers(cenotaph2[index].primaryID);
+    previousPrimaryID = cenotaph2[index].primaryID;
     //'<br>Cenotaph: ' + cenotaph2[index].imageFilename console.log(cenotaph2[index].name);
 };
 
 function filterMarkers(primaryID){
-    for (var marker in markers){
-            if (marker != primaryID){ 
-                markers[marker].setMap(null);
-            }
+    if (markers.clean){
+        filterCleanMarkers(primaryID);
+    }else{
+        if (previousPrimaryID && previousPrimaryID != primaryID){
+        markers[previousPrimaryID].setMap(null);
+        }
+        markers[primaryID].setMap(map);
+        
     }
+}
+
+function filterCleanMarkers(primaryID){
+    markers.clean = false;
+    for (var marker in markers){
+        if (marker != "clean" && marker != primaryID){ 
+            markers[marker].setMap(null);
+        }
+}
 }
 
 //document.addEventListener("DOMContentLoaded", ()=>{

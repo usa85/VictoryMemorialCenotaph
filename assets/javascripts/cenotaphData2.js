@@ -640,7 +640,7 @@ let cenotaph2=[
         "primaryID": 178
     },
     {
-        "name": "Noble Eric Guile (Ct: 182)",
+        "name": "Noble Eric Guile (Ct: 1822)",
         "latitude": 45.028386,
         "longitude": -93.319175,
         "zLevel": 1,
@@ -649,7 +649,7 @@ let cenotaph2=[
         "unit": "75th CO. 6th Regt. U.S.M.C.",
         "deathType": "KA",
         "nearestRelative": "Hilma Guile (M)",
-        "primaryID": 182
+        "primaryID": 1822
     },
     {
         "name": "George A.W. Gustafson (Ct: 184)",
@@ -3409,7 +3409,7 @@ let cenotaph2=[
         "unit": "C0. b. 345th Machine Gun Bn.",
         "deathType": "KA",
         "nearestRelative": "May Pohl (M)",
-        "primaryID": 393
+        "primaryID": 394
     },
     {
         "name": "George Petrimean (Ct 391)",
