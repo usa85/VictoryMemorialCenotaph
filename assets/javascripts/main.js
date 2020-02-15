@@ -1,6 +1,6 @@
 let basedescription;
 basedescription = document.querySelector("#contents").innerHTML;
-let previousPrimaryID;
+let previousPrimaryID; 
 let basePath = ''
 
 function clickfunction(index){
@@ -16,22 +16,21 @@ returnn img;
 
 content.appendChild(createImage(cenotaphData2[i].imageFilename));*/
 
-    filterMarkers(cenotaph2[index].primaryID);
+    filterMarkers(cenotaph2[index].primaryID);/* that removes everymarker of the map except the one that is supposed shown */
     previousPrimaryID = cenotaph2[index].primaryID;
-    //'<br>Cenotaph: ' + cenotaph2[index].imageFilename console.log(cenotaph2[index].name);
+    
 };
 
 function filterMarkers(primaryID){
     if (markers.clean){
         filterCleanMarkers(primaryID);
     }else{
-        if (previousPrimaryID && previousPrimaryID != primaryID){
-        markers[previousPrimaryID].setMap(null);
-        }
-        markers[primaryID].setMap(map);
+        swapSoldierMarkers(primaryID);   
         
-    }
+    markers[primaryID].setMap(map);
 }
+}
+/*function filterMarkers is always run in click event, and choosing between filtercleanmarkers and swaptSoldierMarkers*/
 
 function filterCleanMarkers(primaryID){
     markers.clean = false;
@@ -39,10 +38,18 @@ function filterCleanMarkers(primaryID){
         if (marker != "clean" && marker != primaryID){ 
             markers[marker].setMap(null);
         }
-}
+    }
 }
 
-//document.addEventListener("DOMContentLoaded", ()=>{
+function swapSoldierMarkers(primaryID){
+    if (previousPrimaryID && previousPrimaryID != primaryID){
+        markers[previousPrimaryID].setMap(null);
+        } 
+    }
+        
+
+/*function filterCleanMarkers takes a map with all the markers and remove all of them except the one we want*/
+
 
     let description=document.querySelector("#descriptionHeader");
         description.addEventListener('click', ()=>{

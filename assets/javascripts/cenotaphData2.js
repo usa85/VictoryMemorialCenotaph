@@ -10,11 +10,12 @@ let cenotaph2=[
         "deathType": "KA",
         "nearestRelative": "Mary Kyle Westloff (M)",
         "primaryID": 284,
-        "description": "Sergeant Kyle was...",
+        "description": "North of 43rd, South of 44th, East Side",
         "journey": "Sergeant Kyle was drafted on... etc.. etc."
     },
     {
         "name": "George S. Lang (Ct: 287)",
+        
         "latitude": 45.034821,
         "longitude": -93.319084,
         "zLevel": 5,
@@ -24,10 +25,10 @@ let cenotaph2=[
         "deathType": "DD",
         "nearestRelative": "Mrs Sydney L. Lang (M)",
         "primaryID": 287,
-        "description": "1st Lt lang was also ...!",
+        "description": "North of 43rd, South of 44th, East Side",
         "journey": "1st Ltn was drafted on... etc.. etc."
     },
-    {
+ {
         "name": "Guy A. Larson (Ct: 290)",
         "latitude": 45.034996,
         "longitude": -93.319099,
@@ -37,9 +38,11 @@ let cenotaph2=[
         "unit": "Btry B 148 FA",
         "deathType": "DD",
         "nearestRelative": "Caroline Larson (M)",
-        "primaryID": 290
+        "primaryID": 290,
+        "description": "North of 43rd, South of 44th, East Side!",
+        "journey": "TBD"
     },
-    {
+     {
         "name": "Leslie D. Lawrence (Ct: 293)",
         "latitude": 45.035164,
         "longitude": -93.319115,
@@ -49,7 +52,9 @@ let cenotaph2=[
         "unit": "Co E 804 Pion Inf",
         "deathType": "DD",
         "nearestRelative": "Sadie Bridges (M)",
-        "primaryID": 293
+        "primaryID": 293,
+        "description": "North of 43rd, South of 44th, East Side",
+        "journey": "TBD"
     },
     {
         "name": "Otto Lee (Ct: 296)",
@@ -61,10 +66,13 @@ let cenotaph2=[
         "unit": "C0 A 58th Inf",
         "deathType": "KA",
         "nearestRelative": "S.J. Lee (B)",
-        "primaryID": 296
+        "primaryID": 296,
+        "description": "North of 43rd, South of 44th, East Side",
+        "journey": "TBD"
     },
     {
         "name": "Walter S. Lindahl (Ct: 299)",
+        
         "latitude": 45.03516,
         "longitude": -93.31911,
         "zLevel": 1,
@@ -73,7 +81,9 @@ let cenotaph2=[
         "unit": "Co I 117th Inf",
         "deathType": "KA",
         "nearestRelative": "Andrew Lindahl (W)",
-        "primaryID": 299
+        "primaryID": 299,
+        "description": "North of 43rd, South of 44th, East Side",
+        "journey": "TBD"
     },
     {
         "name": "Harold Thomas Linnel (Ct: 302)",
@@ -85,7 +95,9 @@ let cenotaph2=[
         "unit": "79 Co 6th Regt USMC",
         "deathType": "KA",
         "nearestRelative": "Susie S Linnell (M)",
-        "primaryID": 302
+        "primaryID": 302,
+        "description": "North of 43rd, South of 44th, East Side",
+        "journey": "TBD"
     },
     {
         "name": "John L. Loss (Ct: 305)",
@@ -97,7 +109,9 @@ let cenotaph2=[
         "unit": "Co C 130 Inf",
         "deathType": "DW",
         "nearestRelative": "Katherine Loss (M)",
-        "primaryID": 305
+        "primaryID": 305,
+        "description": "North of 43rd, South of 44th, East Side",
+        "journey": "TBD"
     },
     // {
     //     "name": "Oscar M. Kungen (Ct: tba)",
@@ -158,7 +172,7 @@ let cenotaph2=[
         "deathType": "xx",
         "nearestRelative": "yy",
         "primaryID": 0
-    }, */
+    },*/ 
     {
         "name": "George H Kuehn (Ct: 283)",
         "latitude": 45.034339,
@@ -169,7 +183,9 @@ let cenotaph2=[
         "unit": "Co D 18th Infantry",
         "deathType": "DW",
         "nearestRelative": "Suzanna Kuehn (M)",
-        "primaryID": 283
+        "primaryID": 283,
+        "description": "TBD!",
+        "journey": "TBD"
     },
    /*  {
         "name": "tba",
@@ -195,7 +211,7 @@ let cenotaph2=[
         "nearestRelative": "yy",
         "primaryID": 0
     }, */
-    {
+ {
         "name": "Leo Leonard Levin(Ct: 298)",
         "latitude": 45.035172,
         "longitude": -93.319175,
@@ -205,7 +221,9 @@ let cenotaph2=[
         "unit": "SATC U of M",
         "deathType": "DD",
         "nearestRelative": "Thos Levin (F)",
-        "primaryID": 298
+        "primaryID": 298,
+        "description": "TBD!",
+        "journey": "TBD"
     },
    /*  {
         "name": "tba",
@@ -217,8 +235,10 @@ let cenotaph2=[
         "unit": "unit",
         "deathType": "xx",
         "nearestRelative": "xx",
-        "primaryID": 0
-    }, */
+        "primaryID": 0,
+        "description": "TBD!",
+        "journey": "TBD"
+    }, 
     {
         "name": "Roderick Kennedy (Ct: 266)",
         "latitude": 45.033417,
@@ -229,8 +249,10 @@ let cenotaph2=[
         "unit": "3rd Aero Squadron",
         "deathType": "AD",
         "nearestRelative": "Dr. Jane Kennedy (M)",
-        "primaryID": 266
-    },
+        "primaryID": 266,
+        "description": "TBD!",
+        "journey": "TBD"
+    },*/
     {
         "name": "Andrew Keiser (Ct: 263)",
         "latitude": 45.033172,
@@ -241,7 +263,9 @@ let cenotaph2=[
         "unit": "CO. D. 312tb Amunition Train",
         "deathType": "DD",
         "nearestRelative": "Eugene Dupont (B in L)",
-        "primaryID": 267
+        "primaryID": 267,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Stanley E. Kaniewski (Ct: 260)",
@@ -253,7 +277,9 @@ let cenotaph2=[
         "unit": "CO. G. 3rd Pioneer Infantry",
         "deathType": "DD",
         "nearestRelative": "Frank Kaniewski (B)",
-        "primaryID": 260
+        "primaryID": 260,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Marcus Jones (Ct: 257)",
@@ -265,7 +291,9 @@ let cenotaph2=[
         "unit": "Company G, 18th Infantry",
         "deathType": "KA",
         "nearestRelative": "Frank W. Jones (F)",
-        "primaryID": 257
+        "primaryID": 257,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "William Arthur Johnson (Ct: 254)",
@@ -277,7 +305,9 @@ let cenotaph2=[
         "unit": "Company I, 53rd Infantry",
         "deathType": "DD",
         "nearestRelative": "Martha Johnson (M)",
-        "primaryID": 254
+        "primaryID": 254,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Roy S. Johnson (Ct: 251)",
@@ -289,7 +319,9 @@ let cenotaph2=[
         "unit": "BTRY, D, 151st Field Artillery",
         "deathType": "DD",
         "nearestRelative": "Victor D Johnson",
-        "primaryID": 251
+        "primaryID": 251,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Clarence G. Johnson (Ct: 248)",
@@ -301,7 +333,9 @@ let cenotaph2=[
         "unit": "Company C 16th Infantry",
         "deathType": "KA",
         "nearestRelative": "Alma Paulson (S)",
-        "primaryID": 248
+        "primaryID": 248,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "James Gordon Jerrick (Ct: 242)",
@@ -313,7 +347,9 @@ let cenotaph2=[
         "unit": "Company C, 26th Engineers",
         "deathType": "DD",
         "nearestRelative": "Mabel R. Thomas (S)",
-        "primaryID": 242
+        "primaryID": 242,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Carl A. Johnson (Ct: 245)",
@@ -325,7 +361,9 @@ let cenotaph2=[
         "unit": "Company M, 126TH Infantry",
         "deathType": "KA",
         "nearestRelative": "Charles A. Johnson (F)",
-        "primaryID": 245
+        "primaryID": 245,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Elmer L. Jensen (Ct: 239)",
@@ -337,7 +375,9 @@ let cenotaph2=[
         "unit": "CO. L. 54th Pioneer Infantry",
         "deathType": "DD",
         "nearestRelative": "Louis Jensen (F)",
-        "primaryID": 239
+        "primaryID": 239,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Fredolph Jacobson (Ct: 236)",
@@ -349,7 +389,9 @@ let cenotaph2=[
         "unit": "Company D, 125th Infantry",
         "deathType": "DD",
         "nearestRelative": "Mrs E. M. Walker (Fr)",
-        "primaryID": 236
+        "primaryID": 236,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Francis Patrick  Hynan (Ct: 233)",
@@ -361,7 +403,9 @@ let cenotaph2=[
         "unit": "Grade Lakes Training Station",
         "deathType": "DD",
         "nearestRelative": "Brigget Hynan (M)",
-        "primaryID": 233
+        "primaryID": 233,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Allen Hubert (Ct: 230)",
@@ -373,7 +417,9 @@ let cenotaph2=[
         "unit": "Company M 343 Infantry",
         "deathType": "DD",
         "nearestRelative": "Mrs. Max Hubbert (M)",
-        "primaryID": 230
+        "primaryID": 230,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Gordon Hood (Ct: 227)",
@@ -385,7 +431,9 @@ let cenotaph2=[
         "unit": "8try E. 8th Field Artillery",
         "deathType": "DD",
         "nearestRelative": "James Hood (B)",
-        "primaryID": 227
+        "primaryID": 227,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Fred A. Holmes (Ct: 224)",
@@ -397,7 +445,9 @@ let cenotaph2=[
         "unit": "Company A. 104th Infantry",
         "deathType": "KA",
         "nearestRelative": "Anna Ling (M)",
-        "primaryID": 224
+        "primaryID": 224,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Charles D. Hildebrand (Ct: 221)",
@@ -409,7 +459,9 @@ let cenotaph2=[
         "unit": "Aerial Gunnery School, A.S.S.G",
         "deathType": "AD",
         "nearestRelative": "Mrs. L. C. Hildebrand (M)",
-        "primaryID": 221
+        "primaryID": 221,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Joseph B. Henning (Ct: 218)",
@@ -421,7 +473,9 @@ let cenotaph2=[
         "unit": "Company F 263rd Infanty",
         "deathType": "KA",
         "nearestRelative": "Henry Henning (F)",
-        "primaryID": 218
+        "primaryID": 218,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Harry R. Heim (Ct: 215)",
@@ -433,7 +487,9 @@ let cenotaph2=[
         "unit": "Company A, 114th Engineers",
         "deathType": "DD",
         "nearestRelative": "Ada Heim (W)",
-        "primaryID": 215
+        "primaryID": 215,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Harry J. Healey (Ct: 212)",
@@ -445,7 +501,9 @@ let cenotaph2=[
         "unit": "Company B, 181st Infantry",
         "deathType": "KA",
         "nearestRelative": "Julia M. Healey (M)",
-        "primaryID": 212
+        "primaryID": 212,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Clyde L. Hatcher (Ct: 209)",
@@ -457,7 +515,9 @@ let cenotaph2=[
         "unit": "CO.D Dev. BN. 6. 161st Depot Brigade",
         "deathType": "DD",
         "nearestRelative": "Lena Hatcher (M)",
-        "primaryID": 209
+        "primaryID": 209,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "E.A. Harris (Ct: 206)",
@@ -469,7 +529,9 @@ let cenotaph2=[
         "unit": "41st CO. 11th BN.  159th Dep. Brig",
         "deathType": "DD",
         "nearestRelative": "Sarah Harris (M)",
-        "primaryID": 206
+        "primaryID": 206,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "William A. Hanson (Ct: 203)",
@@ -481,7 +543,9 @@ let cenotaph2=[
         "unit": "Company G. 131st Infantry",
         "deathType": "KA",
         "nearestRelative": "Louise Hanson (M)",
-        "primaryID": 203
+        "primaryID": 203,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Raymond Culter Hanford (Ct: 200)",
@@ -493,7 +557,9 @@ let cenotaph2=[
         "unit": "CO.A. 5th Prov. BN. Engineers",
         "deathType": "DD",
         "nearestRelative": "H.C. Handford (F)",
-        "primaryID": 200
+        "primaryID": 200,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Guy S. Hampton (Ct: 197)",
@@ -505,7 +571,9 @@ let cenotaph2=[
         "unit": "Company I, 357th Infantry",
         "deathType": "DD",
         "nearestRelative": "Virginia L. Hampton (M)",
-        "primaryID": 197
+        "primaryID": 197,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Cliford G. Hamilton (Ct: 194)",
@@ -517,7 +585,9 @@ let cenotaph2=[
         "unit": "Company A. 7th Infantry",
         "deathType": "KA",
         "nearestRelative": "Rebecca Hamilton (M)",
-        "primaryID": 194
+        "primaryID": 194,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Robert P. Hall (Ct: 191)",
@@ -529,7 +599,9 @@ let cenotaph2=[
         "unit": "Norton-Haris Ambulance Corp",
         "deathType": "KA",
         "nearestRelative": "Mrs. S. H. Hall (M)",
-        "primaryID": 191
+        "primaryID": 191,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Fred L. Hagen (Ct: 188)",
@@ -541,7 +613,9 @@ let cenotaph2=[
         "unit": "Company E. 111th Infantry",
         "deathType": "DW",
         "nearestRelative": "Dr. Gilbert I. Hagen (F)",
-        "primaryID": 188
+        "primaryID": 188,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Herman F. Gustafson (Ct: 185)",
@@ -553,7 +627,9 @@ let cenotaph2=[
         "unit": "11th Co. 1st Ing. Regt, 1st Depot Div",
         "deathType": "DW",
         "nearestRelative": "Charles Guvtafson (B)",
-        "primaryID": 185
+        "primaryID": 185,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Lawrence L Guimont (Ct: 182)",
@@ -565,7 +641,9 @@ let cenotaph2=[
         "unit": "HDO.CO. 125th Field Artillery",
         "deathType": "DD",
         "nearestRelative": "Mary Guimont (M)",
-        "primaryID": 182
+        "primaryID": 182,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Marvin C. Grover (Ct: 179)",
@@ -577,7 +655,9 @@ let cenotaph2=[
         "unit": "253rd Aero Squadron, Kelly Field",
         "deathType": "AD",
         "nearestRelative": "Mattie F. May (M)",
-        "primaryID": 179
+        "primaryID": 179,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Gustaf Oscar Green (Ct: 176)",
@@ -589,7 +669,9 @@ let cenotaph2=[
         "unit": "U.S.S. MT. Vernon",
         "deathType": "KA",
         "nearestRelative": "Amanda Green (M)",
-        "primaryID": 176
+        "primaryID": 176,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Robert Louis Grathwol (Ct: 173)",
@@ -601,7 +683,9 @@ let cenotaph2=[
         "unit": "CO. 5. Sec 2. S.A.T.C, U of M",
         "deathType": "DD",
         "nearestRelative": "K.G. Grathwol (M)",
-        "primaryID": 173
+        "primaryID": 173,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Otto A. Grams (Ct: 172)",
@@ -613,7 +697,9 @@ let cenotaph2=[
         "unit": "Company B. 346th Infantry",
         "deathType": "DD",
         "nearestRelative": "August Grams (F)",
-        "primaryID": 172
+        "primaryID": 172,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Walter Philip Graves (Ct: 175)",
@@ -625,7 +711,9 @@ let cenotaph2=[
         "unit": "3th CO 5th regt, U.S.A.I.",
         "deathType": "KA",
         "nearestRelative": "F.E. Graves (F)",
-        "primaryID": 175
+        "primaryID": 175,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Edmund P. Grosse (Ct: 178)",
@@ -637,7 +725,9 @@ let cenotaph2=[
         "unit": "Company H, 359th Infantry",
         "deathType": "DD",
         "nearestRelative": " Max. H. Grosse (F)",
-        "primaryID": 178
+        "primaryID": 178,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Noble Eric Guile (Ct: 1822)",
@@ -649,7 +739,9 @@ let cenotaph2=[
         "unit": "75th CO. 6th Regt. U.S.M.C.",
         "deathType": "KA",
         "nearestRelative": "Hilma Guile (M)",
-        "primaryID": 1822
+        "primaryID": 1822,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "George A.W. Gustafson (Ct: 184)",
@@ -661,7 +753,9 @@ let cenotaph2=[
         "unit": "Depot Co. 1st Corps Arty PR Camp Jackson",
         "deathType": "DD",
         "nearestRelative": "Holga Gustafson (M)",
-        "primaryID": 184
+        "primaryID": 184,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Charles W. Haeg (Ct: 187)",
@@ -673,7 +767,9 @@ let cenotaph2=[
         "unit": "Company A, 363rd Infantry",
         "deathType": "DD",
         "nearestRelative": "Fred Haeg (F)",
-        "primaryID": 187
+        "primaryID": 187,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Raymond Hall (Ct: 190)",
@@ -685,7 +781,9 @@ let cenotaph2=[
         "unit": "Naval TNG. STA, Hampton Roads, VA",
         "deathType": "DD",
         "nearestRelative": "Gertrude Hell (M)",
-        "primaryID": 190
+        "primaryID": 190,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Reynold J. Halverson (Ct: 193)",
@@ -697,7 +795,9 @@ let cenotaph2=[
         "unit": "Armed Draft Detail New York",
         "deathType": "DD",
         "nearestRelative": "Karrie Halverson (M)",
-        "primaryID": 193
+        "primaryID": 193,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Lawrence A. Hammarbeck (Ct: 196)",
@@ -709,7 +809,9 @@ let cenotaph2=[
         "unit": "Motor TRK Co. 430",
         "deathType": "DD",
         "nearestRelative": "Minnie Hallquist (S)",
-        "primaryID": 196
+        "primaryID": 196,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "John Proctor Hanford (Ct: 199)",
@@ -721,7 +823,9 @@ let cenotaph2=[
         "unit": "Company F, 166th Infantry",
         "deathType": "DW",
         "nearestRelative": "H.C. Hanford (F)",
-        "primaryID": 199
+        "primaryID": 199,
+        "description": "TBD!",
+        "journey": "TBD"
     },
     {
         "name": "Frithjof E.S. Hanson (Ct: 202)",
@@ -733,7 +837,9 @@ let cenotaph2=[
         "unit": " CO. F 2nd BN 5th TNG. REGT. 161st Dep Brig.",
         "deathType": "DD",
         "nearestRelative": "Marie Hanson (M)",
-        "primaryID": 202
+        "primaryID": 202,
+        "description": "TBD!",
+        "journey": "TBD"
     },
    /*  {
         "name": "NA",
@@ -746,7 +852,7 @@ let cenotaph2=[
         "deathType": "xxx",
         "nearestRelative": "xxx",
         "primaryID": 0
-    }, */
+    }, 
     {
         "name": "Sabra R. Hardy (Ct: 205)",
         "latitude": 45.029864,
@@ -1634,7 +1740,7 @@ let cenotaph2=[
         "deathType": "TBA",
         "nearestRelative": "tba",
         "primaryID": 0
-    }, */
+    }, 
     {
         "name": "Alsyn Stevens Abbott",
         "latitude": 45.015269,
@@ -2774,7 +2880,7 @@ let cenotaph2=[
         "deathType": "xx",
         "nearestRelative": "xx",
         "primaryID": 0
-    }, */
+    }, 
     {
         "name": "Levi B Owens (Ct 369)",
         "latitude": 45.037158,
@@ -2978,7 +3084,7 @@ let cenotaph2=[
         "deathType": "xx",
         "nearestRelative": "xx",
         "primaryID": 0
-    }, */
+    }, 
     {
         "name": "John M. Magnuson (Ct 318)",
         "latitude": 45.037139,
@@ -3014,7 +3120,7 @@ let cenotaph2=[
         "deathType": "x",
         "nearestRelative": "x",
         "primaryID": 0
-    }, */
+    }, 
     {
         "name": "Albert Martinson (Ct xx)",
         "latitude": 45.037178,
@@ -3062,7 +3168,7 @@ let cenotaph2=[
         "deathType": "na",
         "nearestRelative": "na",
         "primaryID": 0
-    }, */
+    }, 
     {
         "name": "John Miller Jr. (Ct 330)",
         "latitude": 45.037178,
@@ -3494,7 +3600,7 @@ let cenotaph2=[
         "deathType": "xxx",
         "nearestRelative": "xxx",
         "primaryID": 0
-    }, */
+    }, 
     {
         "name": "Alfred H. Peterson (Ct 383)",
         "latitude": 45.036817,

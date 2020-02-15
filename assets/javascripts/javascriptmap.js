@@ -38,13 +38,14 @@ function setMarkers(map) {
       type: 'poly'
     };
    
-    markers.clean = true;
+    markers.clean = true; /*flag saying all of the markers are being shown - ie if false it means that only one marker is being shown */
 
     for (var i = 0; i < cenotaph2.length; i++) {
       var cenotaphm = cenotaph2[i];
       markers[cenotaphm.primaryID] = new google.maps.Marker({
         position: {lat: cenotaphm.latitude, lng: cenotaphm.longitude},
         map: map,
+        //onClick: click=()=>alert('clicked'),
       icon: {
           path: google.maps.SymbolPath.CIRCLE,
           scale: 5,
@@ -54,10 +55,11 @@ function setMarkers(map) {
           strokeWeight: 0.8
         },
         shape: shape,
-        title: cenotaphm.name,
+        title: (cenotaphm.name + '\nCenotaph: ' + cenotaphm.primaryID +'\nLocation: ' + cenotaphm.description|| "undefined"), /*  backslach n */
         labels: cenotaphm.nearestRelative
-       
+   
       });
+  
     }
   }
 
