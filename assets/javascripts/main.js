@@ -1,12 +1,12 @@
 let basedescription;
 basedescription = document.querySelector("#contents").innerHTML;
 let previousPrimaryID; 
-let basePath = ''
+let basePath = '';
 
 function clickfunction(index){
    
     let content = document.querySelector("#contents");
-    content.innerHTML = '<h5>'+cenotaph2[index].name + '</h5><p>' + cenotaph2[index].rank + '<br>' + cenotaph2[index].unit + '</p><p>Death Type: ' + cenotaph2[index].deathType + '</p><p>Relative: ' + cenotaph2[index].nearestRelative + '</p><p>Description: ' + cenotaph2[index].description  + '</p><p>Journey: ' + cenotaph2[index].journey + '<p>Cenotaph Picture: ' + cenotaph2[index].imageFilename +'</p><p>Battlefields: n/a</p><p>Unit Campgrounds: n/a</p><p>burrial sites: n/a </p><p>Last known address: n/a</p><p>Last known Resting Place: n/a</p><p>Family Input: n/a</p><p>';
+    content.innerHTML = '<h5>'+cenotaph2[index].name + '</h5><p>' + cenotaph2[index].rank + '<br>' + cenotaph2[index].unit + '</p><p>Death Type: ' + cenotaph2[index].deathType + '</p><hr><p>Relative: ' + cenotaph2[index].nearestRelative + '</p><p>Description: ' + cenotaph2[index].description  + '</p><p>Journey: ' + cenotaph2[index].journey + '<p>Cenotaph Picture: ' + cenotaph2[index].imageFilename +'</p><p>Battlefields: n/a</p><p>Unit Campgrounds: n/a</p><p>burrial sites: n/a </p><p>Last known address: n/a</p><p>Last known Resting Place: n/a</p><p>Family Input: n/a</p><p>';
    
    /*  function createImage() {
     let img = document.createElement('img');
